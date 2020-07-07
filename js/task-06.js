@@ -4,7 +4,6 @@ let userInput;
 do {
   let userInput = prompt("введи число");
   if (userInput === null) {
-    // alert("Отменено пользователем");
     break;
   }
   userInput = Number(userInput);

@@ -1,22 +1,17 @@
 "use strict";
 let coastOfDelivery = 0;
+let countryOfDelivery;
 let countryName;
 while (true) {
-  let countryOfDelivery = prompt(
-    "Введите название страны для оформления доставки"
-  );
-
+  countryOfDelivery = prompt("Введите название страны для оформления доставки");
   if (countryOfDelivery === null) {
     alert("Отменено пользователем!");
     break;
-    // } else if (countryOfDelivery === "") {
-    //   alert("Вы не ввели название страны");
   } else if (countryOfDelivery.length === 0) {
     alert("Вы не ввели название страны");
     continue;
   } else {
     countryName = countryOfDelivery.toLowerCase();
-    // console.log(typeof countryName);
   }
   switch (countryName) {
     case "китай":

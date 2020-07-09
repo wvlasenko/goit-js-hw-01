@@ -2,7 +2,7 @@
 let total = 0;
 let userInput;
 do {
-  let userInput = prompt("введи число");
+  userInput = prompt("введи число");
   if (userInput === null) {
     break;
   }

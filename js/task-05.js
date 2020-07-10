@@ -35,7 +35,7 @@ if (countryName) {
       rezultMessage = "В вашей стране доставка не доступна";
       break;
   }
-  if (coastOfDelivery != 0) {
+  if (coastOfDelivery !== 0) {
     rezultMessage = `Доставка в ${countryNameToSpell} будет стоить ${coastOfDelivery} кредитов.`;
   }
 }
